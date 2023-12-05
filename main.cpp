@@ -70,7 +70,7 @@ void variableDeclarations() {
   int number =
       2; // declaration of a variable named "number", that uses the primitive
          // type 'int', and the variable's initial value is '2'
-  int number = 4;
+  int newNumber = 4;
   int largeNumber = 200;
   int smallNumber = 1;
   float floatNumber = 2.2f;
@@ -87,7 +87,7 @@ void variableDeclarations() {
   bool maybe = true;
 
   ignoreUnused(
-      number, largeNumber, smallNumber, floatNumber, largeFloatNumber,
+      newNumber, largeNumber, smallNumber, floatNumber, largeFloatNumber,
       smallFloatNumber, goodBye, hello, welcome, doubleNumber,
       largeDoubleNumber, smallDoubleNumber, truth, lie,
       maybe); // passing each variable declared to the ignoreUnused() function
@@ -135,7 +135,7 @@ int moveCharacter(int left = 3, int right = 7) {
 /*
  4)
  */
-int moveCharacter(int up = 2, int down = 8) {
+int moveCharacterVertically(int up = 2, int down = 8) {
   ignoreUnused(up, down);
   return {};
 }
