@@ -23,7 +23,6 @@ submitting it for review.
         bool
         char
         void
-        wchar_t
 
 2) for each primitive type, write out 3 variable declarations inside the
 variableDeclaration() function on line 59. a) give each variable declaration an
