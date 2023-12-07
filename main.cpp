@@ -97,7 +97,7 @@ void variableDeclarations()
  example:
  note: this example shows the result after completing steps 3-8
  */
-bool rentACar(int rentalDuration, int carType = 0) // function declaration with random number of arguments, //                                         // arbitrary number of arguments havlue
+bool rentACar(int rentalDuration, int carType = 0) // function declaration with random number of arguments
 {
     ignoreUnused(rentalDuration, carType); // passing each function parameter to
                                                                                  // // the ignoreUnused() function
