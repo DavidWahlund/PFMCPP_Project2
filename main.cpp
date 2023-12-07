@@ -68,8 +68,7 @@ example of this.
 void variableDeclarations() 
 {
     // example:
-    int number =
-            2; // declaration of a variable named "number", that uses the primitive
+    int number = 2; // declaration of a variable named "number", that uses the primitive
                  // type 'int', and the variable's initial value is '2'
     int newNumber = 4;
     int largeNumber = 200;
@@ -87,8 +86,7 @@ void variableDeclarations()
     bool lie = false;
     bool maybe = true;
 
-    ignoreUnused(
-            newNumber, largeNumber, smallNumber, floatNumber, largeFloatNumber,
+    ignoreUnused(newNumber, largeNumber, smallNumber, floatNumber, largeFloatNumber,
             smallFloatNumber, goodBye, hello, welcome, doubleNumber,
             largeDoubleNumber, smallDoubleNumber, truth, lie,
             maybe); // passing each variable declared to the ignoreUnused() function
@@ -99,10 +97,7 @@ void variableDeclarations()
  example:
  note: this example shows the result after completing steps 3-8
  */
-bool rentACar(
-        int rentalDuration,
-        int carType = 0) // function declaration with random number of arguments, //
-                                         // arbitrary number of arguments havlue
+bool rentACar(int rentalDuration, int carType = 0) // function declaration with random number of arguments, //                                         // arbitrary number of arguments havlue
 {
     ignoreUnused(rentalDuration, carType); // passing each function parameter to
                                                                                  // // the ignoreUnused() function
